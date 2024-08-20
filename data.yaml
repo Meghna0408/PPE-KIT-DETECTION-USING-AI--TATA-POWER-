@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../val/images
+
+nc: 5
+names: ['Gloves', 'Helmet', 'Person', 'Shoes', 'Vest']
+
+roboflow:
+  workspace: ppe-wqipw
+  project: ppe-detection-public
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ppe-wqipw/ppe-detection-public/dataset/2
